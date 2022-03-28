@@ -1,0 +1,16 @@
+npm init vite@latest colo el nombre de mi app y luego agrego con que framework trabajar.
+luego instalo node  con npm i .
+
+ES7 React/Redux/GraphQL/React-Native snippets
+ rfce crea el componente con function
+
+ rafce crea el componente con const en arrow function 
+
+ Para Instalar TailwindCSS utilizo :  npm install -D tailwindcss@latest postcss@latest autoprefixer@latest 
+
+ npx tailwindcss init -p se me instala postcss y tailwin config.js 
+ 
+luego coloco  purge:["./index.html", "./src/**/*.{jsx}" ], dentro del tailwin.config.js
+en el index.css importo @import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
